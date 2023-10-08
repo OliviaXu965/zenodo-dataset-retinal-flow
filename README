@@ -1,0 +1,16 @@
+NOTE: change path in config to data path (uploaded via Dryad)
+
+processed data (histograms generated under different conditions) are provided in figureDataSources.
+
+
+However these can be regenerated with the following scripts:
+- quantile_based_eye_dir_effects.m
+- recomputeHistAll_mesh_orig_masks.m
+- recomputeHistAll_mesh_orig_masks_saccades.m
+- resamp_orig_hists.m
+
+Will write .mat files into figureDataSources
+
+one sample trial is included (sample_trial.mat), this is used for simulation code (simulateSlip.m)
+
+To generate figures, run allFigures.m
